@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "urbanist", sans-serif;
+}
+
+:root {
+
+    --bs-dark-color: #1a1d20;
+    --bs-dark-color: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --bs-secondary-color: #29a9fd;
+    --bs-supporting-color: #c850c0;
+
+}
+
+h1, h2, h3, h4, h5 {
+
+    font-family: 'urbanist', sans-serif;
+    color: var(--bs-dark-color);
+    
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    line-height: 3 rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button, a{
+    font-size: 1.15rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+/* navbar style */
+
+.nav-link {
+    color: var(--bs-main-color);
+    font-weight: bold;
+}
+
+/* hero section start */
+
+.hero-section .container {
+    display: grid;
+    place-content: center;
+    height: inherit;
+
+}
+
+.bg-main {
+    height: 80vh;
+    position: relative;
+}
+
+.bg-color {
+    background-color: var(--bs-dark-color);
+}
+
+.text-light-grey{
+    color:var(--bs-primary-color)
+}
+
+/* .bg-theme { */
+    /* color: var(--bs-supporting-color); */
+    /* background-image: none !important; */
+/* } */
+
+.hero-video--section {
+   
+    width: 30rem;
+    border-radius: 2rem;
+
+}
+
+.custom-shape-divider-bottom-1708262224 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1708262224 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 104px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1708262224 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* services section  */
+
+.services-section {
+    padding: 6rem 0 3rem 0!important;
+}
+
+.icon-span {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--bs-main-color);
+    background-color: var(--bs-secondary-color);
+    
+}
+
+.card-box:hover {
+    box-shadow: rgba(149, 157, 165, 0.2)0 8px 24px;
+}
+
+
+
+
+
